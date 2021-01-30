@@ -9,7 +9,7 @@ from images import *
 
 app = Flask(__name__)
 
-@app.route('/', methods=['post', 'get'])
+@app.route('/bernie-sits', methods=['post', 'get'])
 def login():
 	location = ''
 	if request.method == 'POST':
